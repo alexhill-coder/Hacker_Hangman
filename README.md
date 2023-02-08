@@ -1,70 +1,87 @@
-# Getting Started with Create React App
+# Hacker Hangman a Classic Game App Made With React, Redux and Bootstrap.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The final project for my bootcamp at HyperionDev. Using React, Redux and Bootstrap an app was developed in accordance with the task to 
+create the classic game hangman with progressing images, counters, keyboard inputs, instruction page & a game over screen with a reset button.
 
-## Available Scripts
+In terms of functionality it is fairly simple by using either a keyboard or the keyboard buttons in the app you have 8 guesses to find the hidden word. The app will let the player know whether they are correct, won or lost and allow the player to play again after every game.
 
-In the project directory, you can run:
+## Contents
 
-### `npm start`
+- [How To Install](#how-to-install)
+- [How To Use](#how-to-use)
+- [How You Can Help](#how-you-can-help)
+- [License](#license)
+- [Credits](#credits)
+- [Contact](#contact)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## How To Install
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The file was created using the Create React App module [Found Here.](https://reactjs.org/docs/create-a-new-react-app.html), Redux/Redux Toolkit [Found Here.](https://redux-toolkit.js.org/introduction/getting-started), React Bootstrap [Found Here.](https://react-bootstrap.github.io/getting-started/introduction) and the npm random-words module [Found Here.](https://www.npmjs.com/package/random-words?activeTab=explore).
 
-### `npm test`
+Alternatively you can check it out here on Github: [Click here to give it a try.](https://alexhill-coder.github.io/finalCapstone/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## How To Use
 
-### `npm run build`
+To use is very simple the website is response and connects to each other, so you can just play around with the dimentions and the links. Below shows the contact us page of the the website when in widescreen.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<p align="center">
+<img src="https://user-images.githubusercontent.com/119125564/207594361-ea1aeaf4-1218-49bd-b2d3-947344c415df.png" alt="website widescreen" width="50%"/>
+</p>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<p align="center">
+ The next image shows it at phone size showing how the site has responded to the screen size no problem.
+</p>
+ 
+<p align="center">    
+<img src="https://user-images.githubusercontent.com/119125564/207594419-cb5f01a7-3a8f-49eb-953c-5f7db3c273bc.png" alt="website smallscreen" width="30%"/>
+</p>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<p align="center">
+ This image shows the main nav bar and how it will reduce to a popup menu when the screen is small.
+</p>
 
-### `npm run eject`
+<p align="center">
+<img src="https://user-images.githubusercontent.com/119125564/207594464-863b4c62-f78b-45eb-9513-c1ae5b714f48.png" alt="website top bar" width="50%"/>
+</p>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<p align="center">
+ This footer of the page contains a number of links and is designed to fit all screen dimentions.
+</p>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<p align="center">
+<img src="https://user-images.githubusercontent.com/119125564/207594481-98c0df30-215b-4951-8308-a5eb16e098c2.png" alt="website bottom bar" width="50%"/>
+</p>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<p align="center">
+ The final image shows a number of images on Bootstrap cards that allow the rows to be adjusted depending on the screen size. They are also links that will take you to the collections page.
+</p>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<p align="center">
+<img src="https://user-images.githubusercontent.com/119125564/207594525-c7d9eba3-6312-444c-b7a5-e8bce7b16f60.png" alt="website index page" width="50%"/>
+</p>
 
-## Learn More
+## How you can help
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+If you wish to contribute to any of my files, you are more than welcome to as long as you keep in mind the following:
+ - Provide a description of any minor changes before commiting.
+ - If you are making major changes please branch the project.
+ - Provide a name/handle so you can be aknowledged for your work.
+ - You do not require my permission to proceed with any changes.
+ - As this is an MIT License the project may be copied to another repository for any reason at any time and used how they see fit.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## License
 
-### Code Splitting
+This project falls under The MIT License allowing for the use of this project for any purpose. For more information on this type of license please see the [LICENSE.md](https://github.com/alexhill-coder/finalCapstone/blob/master/LICENSE.md)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Credits
 
-### Analyzing the Bundle Size
+- Alex Hill
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Contact
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Please feel free to contact me here:
+<p align=center>
+<a href="https://www.linkedin.com/in/alex-hill-webdeveloper">
+<img src="https://img.shields.io/badge/-@alex hill webdeveloper-blue?style=for-the-badge&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/alex-hill-webdeveloper/" height=32/>
+</a>
+</p>
