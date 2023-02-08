@@ -177,3 +177,7 @@ function App() {
 
 // This componant is sent to theindex file.
 export default App;
+
+// This app was based on a tutorial on building a hangman game with Create React App.
+// Traversy Media. (2020, August 7). Build Hangman With React [Video]. YouTube. 
+// Retrieved February 1, 2023, from https://www.youtube.com/watch?v=jj0W8tYX_q8
