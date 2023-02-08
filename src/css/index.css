@@ -1,0 +1,220 @@
+/* Centers all the elements on the page */
+.App {
+  text-align: center;
+}
+
+/* Sets the background animation to beneath the other elements and to fill the screen. 
+note the animimation will only display correctly at the intial page size and will stretch/shrink
+to fit the page if the size is changed. */
+canvas {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+}
+
+/* Initial settings from when the app was created. */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Provides the default color for the text */
+#root {
+  color: #e7f1ff;
+}
+
+/* Sets the background for the image componant to transparent */
+.card {
+  background-color: rgba(0,0,0,0)!important;
+  border: none!important;
+}
+
+/* Sets the background for the help button on the main app page and 
+restart button on the win/lose popup. */
+.restart{
+  background-color: white!important;
+  color: #0d6efd!important;
+}
+
+.restart:hover{
+  background-color: #0d6efd!important;
+  color: white!important;
+}
+
+/* Controls the size of the hangman images */
+.Mainimg {
+  max-width: 380px;
+  min-height: 280px;
+  max-height: 380px;
+}
+
+/* Controls the container that will house the letters of the inputted word */
+.word {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 2px 2px 2px black;
+  border: 1px solid white;
+  max-width: 500px;
+  padding: 0px 30px 10px 30px;
+  border-radius: 10px;
+  /* background-color: rgba(96, 78, 255, 0.2); */
+  background-color: rgba(1, 71, 170, 0.7);
+  color: #e7f1ff;
+}
+
+/* Controls the letters inside the word container. */
+.letter {
+  border-bottom: 3px solid #2980b9;
+  display: inline-flex;
+  font-size: 50px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 4px;
+  height: 80px;
+  width: 30px;
+}
+
+/* Controls the help button position on the main screen. */
+.help {
+  position: absolute;
+  transition: visibility 0.3s ease-in-out;
+  top: 4.5%;
+  right: 5%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  font-size: 25px!important;
+  padding: 0px 0px!important;
+}
+
+/* Controls the notification popup that appears when the word has been inputted already. */
+.notification-container {
+  background-color: rgba(1, 71, 170, 0.7);
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 15px 20px;
+  position: absolute;
+  transition: visibility 0.3s ease-in-out;
+  visibility: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  font-size: 25px;
+}
+
+/* Removes the margin of the paragraph */
+.notification-container p {
+  margin: 0;
+}
+
+/* Needed to make the container appear/disappear by toggling this class. */
+.notification-container.show {
+  visibility: visible;
+}
+
+/* Controls the position of the win/lose screen to be in the center of the screen. */
+.popup-container {
+  background-color: rgba(0, 0, 0, 0.3);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /* display: flex; */
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+/* Controls the container that houses the text. */
+.popup {
+  background: #2980b9;
+  border-radius: 5px;
+  box-shadow: 0 15px 10px 3px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  max-width: 500px;
+  border: 1px solid #dee2e6;
+}
+
+/* Adds a class that will hide the element if certain conditions are met. */
+.wrongDisplay {
+  display: none;
+}
+
+/* Controls the size of the accodion element of the keyboard and the icon color. */
+.accordion {
+  max-width: 480px!important;
+  min-width: 480px!important;
+  --bs-accordion-body-padding-x: 0rem!important;
+  --bs-accordion-btn-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e")!important;
+  --bs-accordion-btn-active-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e")!important;
+}
+
+/* Controls the accordion button text size and background color. */
+.accordion-button {
+  font-size: 25px!important;
+  background-color: rgba(1, 71, 170, 0.7)!important;
+}
+
+/* Sets the keyboard buttons minimum size */
+.btn {
+  min-width:45px!important;
+}
+
+/* Controls the border/background of multiple main screen elements */
+.borderControl {
+  border: 1px solid #dee2e6;
+  width: 480px;
+  color: #e7f1ff;
+  background-color: rgba(1, 71, 170, 0.7);
+  border-radius: calc(0.375rem - 1px);
+  font-size: 25px;
+}
+
+/* Sets the accordian background as transparent */
+.accordion {
+  --bs-accordion-bg: transparent!important;
+}
+
+/* Sets the background of the keyboard/accordian header */
+.accordion-button {
+  color: #e7f1ff!important;
+  background-color: rgba(1, 71, 170, 0.7)!important;
+}
+
+/* Used to ensure accordian button header color. */
+.accordion-button.collapsed {
+  color: #e7f1ff!important;
+}
+
+/* Sets the background of the keyboard buttons section of the accordian */
+.accordion-body {
+  background-color: #e7f1ff!important;
+}
+
+/* Controls the title & intial paragraph for the images size/border/background */
+.fontControlHeader {
+  text-shadow: 2px 2px 2px black;
+  font-size: 25px;
+  border: 1px solid white;
+  width: 500px;
+  padding: 0px 30px 10px 30px;
+  border-radius: 10px;
+  background-color: rgba(1, 71, 170, 0.7);
+  color: #e7f1ff;
+}
