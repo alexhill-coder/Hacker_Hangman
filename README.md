@@ -1,4 +1,4 @@
-# Hacker Hangman a Classic Game App Made With React, Redux and Bootstrap.
+# Hacker Hangman - a Classic Game App Made With React, Redux and Bootstrap.
 
 The final project for my bootcamp at HyperionDev. Using React, Redux and Bootstrap an app was developed in accordance with the task to 
 create the classic game hangman with progressing images, counters, keyboard inputs, instruction page & a game over screen with a reset button.
@@ -16,24 +16,34 @@ In terms of functionality it is fairly simple by using either a keyboard or the 
 
 ## How To Install
 
-The file was created using the Create React App module [Found Here.](https://reactjs.org/docs/create-a-new-react-app.html), Redux/Redux Toolkit [Found Here.](https://redux-toolkit.js.org/introduction/getting-started), React Bootstrap [Found Here.](https://react-bootstrap.github.io/getting-started/introduction) and the npm random-words module [Found Here.](https://www.npmjs.com/package/random-words?activeTab=explore).
+This app was created using:
+- [Create React App](https://reactjs.org/docs/create-a-new-react-app.html)
+- [Redux/Redux Toolkit](https://redux-toolkit.js.org/introduction/getting-started)
+- [React Bootstrap](https://react-bootstrap.github.io/getting-started/introduction)
+- [npm random-words](https://www.npmjs.com/package/random-words?activeTab=explore)
 
-Alternatively you can check it out here on Github: [Click here to give it a try.](https://alexhill-coder.github.io/finalCapstone/)
+To install:
+1. Download the files to a local directory. 
+2. Use a command/terminal to select the directory folder.
+3. Run the following command 'npm install' to download the required modules.
+4. Then once the modules have been downloaded enter the command 'npm start' to compile and run.
+5. In the event that the app doesn't start in the browser enter the following address: 'localhost:3000' 
 
 ## How To Use
 
-To use is very simple the website is response and connects to each other, so you can just play around with the dimentions and the links. Below shows the contact us page of the the website when in widescreen.
+To the app is very simple as the design provides information as to how the player is meant to proceed. Starting with a message to enter a letter the app also indicates the length of the word and a keyboard to provide the letter.
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/119125564/207594361-ea1aeaf4-1218-49bd-b2d3-947344c415df.png" alt="website widescreen" width="50%"/>
+<img src="https://user-images.githubusercontent.com/119125564/217437030-bc400b8d-e633-431c-b78a-783f5f0cf7df.png" alt="react app" width="40%"/>
 </p>
 
 <p align="center">
- The next image shows it at phone size showing how the site has responded to the screen size no problem.
+ The keyboard buttons provide feedback to the player by changing color to red if the letter was incorrect or green if it is correct and a letter appearing onscreen. The app also allows for the player to input the letter through a physical keyboard allowing the keyboard panel to be closed and the incorrect letters to appear alongside the total wrong section.
 </p>
  
 <p align="center">    
-<img src="https://user-images.githubusercontent.com/119125564/207594419-cb5f01a7-3a8f-49eb-953c-5f7db3c273bc.png" alt="website smallscreen" width="30%"/>
+<img src="https://user-images.githubusercontent.com/119125564/217437528-83ee3ab7-bd17-47da-aacd-b50dc4a7ffc7.png" alt="keyboard feedback" width="40%"/>
+<img src="https://user-images.githubusercontent.com/119125564/217437721-066e3d5d-1d1f-4ff5-8efb-f453c4fb2612.png" alt="wrong letters" width="40%"/>
 </p>
 
 <p align="center">
@@ -41,23 +51,16 @@ To use is very simple the website is response and connects to each other, so you
 </p>
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/119125564/207594464-863b4c62-f78b-45eb-9513-c1ae5b714f48.png" alt="website top bar" width="50%"/>
+<img src="https://user-images.githubusercontent.com/119125564/217437881-53ff75a7-8d63-4a0c-b97c-2f93e3004072.png" alt="instruction screen" width="40%"/>
+<img src="https://user-images.githubusercontent.com/119125564/217437925-ff3a6002-ff83-4398-9296-fe3b3aa9ed76.png" alt="notification alert" width="40%"/>
 </p>
 
 <p align="center">
- This footer of the page contains a number of links and is designed to fit all screen dimentions.
+Once the player has guessed the correct word or made 8 wrong attempts the end screen will appear letting the player know if they have won or lost. It will also provide the missing word and the ability to restart the game.
 </p>
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/119125564/207594481-98c0df30-215b-4951-8308-a5eb16e098c2.png" alt="website bottom bar" width="50%"/>
-</p>
-
-<p align="center">
- The final image shows a number of images on Bootstrap cards that allow the rows to be adjusted depending on the screen size. They are also links that will take you to the collections page.
-</p>
-
-<p align="center">
-<img src="https://user-images.githubusercontent.com/119125564/207594525-c7d9eba3-6312-444c-b7a5-e8bce7b16f60.png" alt="website index page" width="50%"/>
+<img src="https://user-images.githubusercontent.com/119125564/217438004-30f907d6-ef3d-4765-9dfc-985526fa4c85.png" alt="game over screen" width="40%"/>
 </p>
 
 ## How you can help
