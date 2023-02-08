@@ -38,7 +38,7 @@ To the app is very simple as the design provides information as to how the playe
 </p>
 
 <p align="center">
- The keyboard buttons provide feedback to the player by changing color to red if the letter was incorrect or green if it is correct and a letter appearing onscreen. The app also allows for the player to input the letter through a physical keyboard allowing the keyboard panel to be closed and the incorrect letters to appear alongside the total wrong section.
+The keyboard buttons provide feedback to the player by changing color to red if the letter was incorrect or green if it is correct and a letter appearing onscreen. The app also allows for the player to input the letter through a physical keyboard allowing the keyboard panel to be closed and the incorrect letters to appear alongside the total wrong section.
 </p>
  
 <p align="center">    
@@ -47,7 +47,7 @@ To the app is very simple as the design provides information as to how the playe
 </p>
 
 <p align="center">
- This image shows the main nav bar and how it will reduce to a popup menu when the screen is small.
+If the player wants to read the rules of the game app there is a button in the top right courner that will display/hide the instructions. If the player accidently hits the same letter more than once a notification will appear to let the player know with no penelty. 
 </p>
 
 <p align="center">
@@ -74,7 +74,7 @@ If you wish to contribute to any of my files, you are more than welcome to as lo
 
 ## License
 
-This project falls under The MIT License allowing for the use of this project for any purpose. For more information on this type of license please see the [LICENSE.md](https://github.com/alexhill-coder/finalCapstone/blob/master/LICENSE.md)
+This project falls under The MIT License allowing for the use of this project for any purpose. For more information on this type of license please see the [LICENSE.md](https://github.com/alexhill-coder/Hacker_Hangman/blob/master/LICENSE.md)
 
 ## Credits
 
