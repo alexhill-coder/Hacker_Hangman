@@ -31,7 +31,7 @@ To install:
 
 ## How To Use
 
-To the app is very simple as the design provides information as to how the player is meant to proceed. Starting with a message to enter a letter the app also indicates the length of the word and a keyboard to provide the letter.
+To use the app is very simple as the design provides information as to how the player is meant to proceed. Starting with a message to enter a letter the app also indicates the length of the word and a keyboard to provide the letter.
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/119125564/217437030-bc400b8d-e633-431c-b78a-783f5f0cf7df.png" alt="react app" width="40%"/>
@@ -47,7 +47,7 @@ The keyboard buttons provide feedback to the player by changing color to red if 
 </p>
 
 <p align="center">
-If the player wants to read the rules of the game app there is a button in the top right courner that will display/hide the instructions. If the player accidently hits the same letter more than once a notification will appear to let the player know with no penelty. 
+If the player wants to read the rules of the game app there is a button in the top right courner that will display/hide the instructions. If the player accidently hits the same letter more than once a notification will appear to let the player know with no penalty. 
 </p>
 
 <p align="center">
