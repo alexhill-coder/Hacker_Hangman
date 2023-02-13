@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Hacker_Hangman/static/css/main.9d320a78.css",
+    "main.js": "/Hacker_Hangman/static/js/main.e3f10817.js",
+    "static/js/787.36f62ff1.chunk.js": "/Hacker_Hangman/static/js/787.36f62ff1.chunk.js",
+    "static/media/7.png": "/Hacker_Hangman/static/media/7.90fc359c5fb7fd185b28.png",
+    "static/media/4.png": "/Hacker_Hangman/static/media/4.f95771ee1ca195f52922.png",
+    "static/media/5.png": "/Hacker_Hangman/static/media/5.608ce9bd1b9952258e43.png",
+    "static/media/6.png": "/Hacker_Hangman/static/media/6.272eeab83bcddaa0f28b.png",
+    "static/media/3.png": "/Hacker_Hangman/static/media/3.6fbb5505a64e6e0ee5b2.png",
+    "static/media/2.png": "/Hacker_Hangman/static/media/2.68741a549ec3d507fe76.png",
+    "static/media/8.png": "/Hacker_Hangman/static/media/8.ed0b2a49243208cb45f8.png",
+    "static/media/1.png": "/Hacker_Hangman/static/media/1.af51956f3f5f167fb6b1.png",
+    "static/media/0.png": "/Hacker_Hangman/static/media/0.93951e493c353eddad65.png",
+    "index.html": "/Hacker_Hangman/index.html",
+    "main.9d320a78.css.map": "/Hacker_Hangman/static/css/main.9d320a78.css.map",
+    "main.e3f10817.js.map": "/Hacker_Hangman/static/js/main.e3f10817.js.map",
+    "787.36f62ff1.chunk.js.map": "/Hacker_Hangman/static/js/787.36f62ff1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9d320a78.css",
+    "static/js/main.e3f10817.js"
+  ]
+}
