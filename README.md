@@ -3,7 +3,7 @@
 The final project for my bootcamp at HyperionDev. Using React, Redux and Bootstrap an app was developed in accordance with the task to 
 create the classic game hangman with progressing images, counters, keyboard inputs, instruction page & a game over screen with a reset button.
 
-In terms of functionality it is fairly simple by using either a keyboard or the keyboard buttons in the app you have 8 guesses to find the hidden word. The app will let the player know whether they are correct, won or lost and allow the player to play again after every game.
+In terms of functionality it is fairly simple by using either a keyboard or the keyboard buttons in the app you have 8 guesses to find the hidden word. The app will let the player know whether they are correct, won or lost and allow the player to play again after every game. 
 
 ## Contents
 
@@ -28,6 +28,8 @@ To install:
 3. Run the following command 'npm install' to download the required modules.
 4. Then once the modules have been downloaded enter the command 'npm start' to compile and run.
 5. In the event that the app doesn't start in the browser enter the following address: 'localhost:3000' 
+
+Alternatively you can check it out here on Github: [Click here to give it a try.](alexhill-coder.github.io/Hacker_Hangman/)
 
 ## How To Use
 
